@@ -11,7 +11,7 @@
 <script setup>
 import { ref } from "vue";
 const props = defineProps({
-    Destination: Object,
+    Destination: Object, 
 })
 
 //clicker logic

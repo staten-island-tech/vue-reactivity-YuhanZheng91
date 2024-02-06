@@ -9,6 +9,7 @@
 </template>
 
 <script setup>
+// vue dev tools extension install
   import DestCard from "@/components/DestCard.vue";
   const destinations = [
   [
