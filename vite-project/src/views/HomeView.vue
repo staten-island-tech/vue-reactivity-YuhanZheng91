@@ -1,56 +1,75 @@
 <template>
   <div>
-    <DestCard 
-      v-for="destination in destinations" 
-      :key="destination.name" 
-      :Destination="destination" 
-    />
+    <h1> Dokkaebi Bag</h1>
   </div>
 </template>
 
 <script setup>
-// vue dev tools extension install
-  import DestCard from "@/components/DestCard.vue";
-  const destinations = [
-  [
-        {
-          name: "Venetian Renaissance",
-          International: true,
-          price: 1300,
-          img: "https://images.unsplash.com/photo-1498307833015-e7b400441eb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80&quot",
-        },
-        {
-          name: "Swiss Mountain Getaway",
-          International: true,
-          price: 800,
-          img: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80&quot",
-        },
-        {
-          name: "Ibizan Coastal Vacation",
-          International: true,
-          price: 1200,
-          img: "https://images.unsplash.com/photo-1547138494-97041dec734b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80&quot",
-        },
-        {
-          name: "Hawaiian Vacation",
-          International: false,
-          price: 900,
-          img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80&quot",
-        },
-        {
-          name: "Cascade Mountains",
-          International: false,
-          price: 400,
-          img: "https://images.unsplash.com/photo-1511497584788-876760111969?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1332&q=80&quot",
-        },
-        {
-          name: "Egyptian Exploration",
-          International: true,
-          price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
-        },
-      ],
-  ]
+const items = [
+  {
+    name: "One's Lost Gadget",
+    desc: "A gadget without an owner. A strange, weird human-made gadget. Its purpose is unknown.",
+    image: "",
+    imageDesc: "a gadget with a black surface",
+    price: "1,000,000,000 c"
+  },
+  {
+    name: "Broken Egg Shells",
+    desc: "Egg shells without much value. The shells belong to a baby dokkaebi who hatched recently.",
+    image: "",
+    imageDesc: "Yellow egg shells that are broken.",
+    price: "9158 c",
+  },
+  {
+    name: "Broken Faith",
+    desc: "A sword with the former purpose of destroying the world. It broke in the process.",
+    image: "",
+    imageDesc: "A bright double-edged sword with a silver hilt, welding the properties of divinity, dark, and fire.",
+    price: "999,999,999 c",
+  },
+  {
+    name: "Elf's Elixir",
+    desc: "A potion that restores wounds.",
+    image: "",
+    imageDesc: "A round potion bottle containing light green liquid",
+    price: "5000 c",
+  },
+  {
+    name: "Artifically Flavored Lemon Lollipop",
+    desc: "A lollipop meant for the purpose of eliminating exhaustion and restores alertness. The flavor is the best as well.",
+    image: "",
+    imageDesc: "A lollipop with yellow candy. Despite being artificially flavored, it tastes really good.",
+    price: "5100 c",
+  },
+  {
+    name: "Random Weapon Box",
+    desc: "Want SSSS-grade weapons? Here it is! Buy one and get a random weapon with a great chance of getting a legendary weapon.",
+    image: "",
+    imageDesc: "",
+    price: "1500 c"
+  },
+  {
+    name: "Random Skill Box",
+    desc: "Want SSSS-grade skill? Here it is! Buy one and get a random skill with a great chance of getting a legendary skill.",
+    image: "",
+    imageDesc: "",
+    price: "1500 c"
+  }, 
+  {
+    name: "Random Armor Box",
+    desc: "Want SSSS-grade armor? Here it is! Buy one and get a random armor with a great chance of getting a legendary armor.",
+    image: "",
+    imageDesc: "",
+    price: "1500 c"
+  }, 
+  {
+    name: "Recovery Package",
+    desc: "Recover from injury and fatigue!",
+    image: "",
+    imageDesc: "",
+    price: "1000 c"
+  },
+];
 </script>
 
 <style scoped>
