@@ -69,6 +69,23 @@ const items = [
     imageDesc: "",
     price: "1000 c"
   },
+  {
+    name: "Sword of Judgement",
+    desc: "A sword used by the strongest woman loved by many. The judge of destruction shall return and reclaim what is hers.",
+    image: "",
+    imageDesc: "A longsword with a large red-colored eye between the hilt and blade. The blade is black.",
+    price: "1,000,000 c",
+  },
+  {
+    name: "The Present",
+    desc: "An abandoned, custom-made pocket watch. A reminder of the present to a dear regressor.",
+    image: "",
+    imageDesc: "A grey pocket watch with 'Aileen' carved on the bottom of it.",
+    price: "1,000,000 c",
+  },
+  {
+    name: ""
+  }
 ];
 </script>
 
