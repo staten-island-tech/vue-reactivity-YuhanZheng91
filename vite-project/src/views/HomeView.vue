@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container" >
-    <h2> {{ items.name }}</h2>
+    <h2> </h2>
     </div>
   </div>
 </template>
@@ -92,8 +92,10 @@ const items = [
     imageDesc: "A hardcover diary; it has a black cover and white pages. Each page is filled with a foreign language.",
     price: 4951,
   },
+  {
+    name: ""
+  }
 ];
-
 </script>
 
 <style scoped>

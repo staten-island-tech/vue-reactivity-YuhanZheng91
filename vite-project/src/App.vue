@@ -5,19 +5,29 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <header>
     <h1> Dokkaebi Bag </h1>
-    <!-- <div class="wrapper">
+    <div class="wrapper">
       <HelloWorld msg="You did it!" />
-      <nav>
+      <nav class="linksRouters">
         <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/cart">Cart</RouterLink>
       </nav>
-    </div> -->
+    </div>
   </header>
+  
 </template>
 
 <style scoped>
+*{
+  padding: 1%;
+  text-align: center;
+}
+
 h1{
   text-align: center;
   font-weight: bold;
+}
+
+.linksRouters{
+  color:black;
 }
 </style>
