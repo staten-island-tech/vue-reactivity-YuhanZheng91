@@ -1,12 +1,34 @@
 <template>
-  <div>
-    <div class="container" >
-    <h2> </h2>
-    </div>
+  <div class="container" >
+  <h2></h2>
   </div>
 </template>
 
 <script setup>
+const adver = [
+  {
+    name: "Sponsored an incarnation with the worst stats possible?",
+    desc: "Fear not! Purchase these and you will gain a random attribute to give to your incarnation.",
+    image: "",
+    imageDesc: "a smiling fluff ball (called a Dokkaebi), giving you a thumbs up.",
+    price: 100000,
+  },
+  {
+    name: "Starter Pack For Incarnations!",
+    desc: "Boosts your incarnation's stats to level 10. This is only effective if the incarnation's stats were below level 10.",
+    image: "",
+    imageDesc: "a package-looking thing with a smiling Dokkaebi",
+    price: 157500,
+  },
+  {
+    name: "Cancel-Contract",
+    desc: "Did your incarnation completely disappoint you? Do you completely regret choosing your incarnation? Fret not, for I have a solution. With Cancel-Contract, you may terminate the contract and leave your incarnation.",
+    image: "",
+    imageDesc: "a package with ",
+    price: 29344560,
+  },
+];
+
 const items = [
   {
     name: "One's Lost Gadget",
@@ -47,35 +69,35 @@ const items = [
     name: "Random Weapon Box",
     desc: "Want SSSS-grade weapons? Here it is! Buy one and get a random weapon with a great chance of getting a legendary weapon.",
     image: "",
-    imageDesc: "",
+    imageDesc: "A package thing with an icon of two swords.",
     price: 1500,
   },
   {
     name: "Random Skill Box",
     desc: "Want SSSS-grade skill? Here it is! Buy one and get a random skill with a great chance of getting a legendary skill.",
     image: "",
-    imageDesc: "",
+    imageDesc: "A package looking thing with an icon showing a thumbs-up",
     price: 1500,
   }, 
   {
     name: "Random Armor Box",
     desc: "Want SSSS-grade armor? Here it is! Buy one and get a random armor with a great chance of getting a legendary armor.",
     image: "",
-    imageDesc: "",
+    imageDesc: "A package looking thing with an icon of a helmet.",
     price: 1500,
   }, 
   {
     name: "Recovery Package",
     desc: "Recover from injury and fatigue!",
     image: "",
-    imageDesc: "",
+    imageDesc: "A package-looking thing with an icon showing a plus sign.",
     price: 1000,
   },
   {
     name: "Sword of Judgement",
     desc: "A sword used by the strongest woman loved by many. The judge of destruction shall return and reclaim what is hers.",
     image: "",
-    imageDesc: "A longsword with a large red-colored eye between the hilt and blade. The blade is black.",
+    imageDesc: "A longsword with a large red-colored eye between the hilt and blade. The blade is black with hints of red.",
     price: 1000000,
   },
   {
@@ -86,15 +108,12 @@ const items = [
     price: 5049,
   },
   {
-    name: "A Writer's Diary",
+    name: "Diary of Yuri di Aristel",
     desc: "A notebook belonging to a particular author, who wrote and waited more than 50 years for just that one reader. Where has he gone?",
     image: "",
-    imageDesc: "A hardcover diary; it has a black cover and white pages. Each page is filled with a foreign language.",
+    imageDesc: "A hardcover diary; it has a black leather cover and white pages. Each page is filled with a foreign language.",
     price: 4951,
   },
-  {
-    name: ""
-  }
 ];
 </script>
 
