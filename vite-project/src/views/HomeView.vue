@@ -24,8 +24,22 @@ const adver = [
     name: "Cancel-Contract",
     desc: "Did your incarnation completely disappoint you? Do you completely regret choosing your incarnation? Fret not, for I have a solution. With Cancel-Contract, you may terminate the contract and leave your incarnation.",
     image: "",
-    imageDesc: "a package with ",
-    price: 29344560,
+    imageDesc: "a package with a boo-ing fluff ball with a thumbs down.",
+    price: 91580,
+  },
+  {
+    name: "All in One Package!",
+    desc: "Potions for strength, health, fatigue, skills, armors, weapons, and more for a very cheap and reasonable price. Buy now.",
+    image: "",
+    imageDesc: "A big package with a sticker of a fluff ball with a small golden crown.",
+    price: 1000000,
+  },
+  {
+    name: "Temporary Sponsor Contract",
+    desc: "Wanting to sponor an incarnation but scared of it failing your expectations? Fret not for temporary contracts exist! Try out your incarnation and see if you're satisfied for a great price.",
+    image: "",
+    imageDesc: "an old scroll",
+    price: 50000,
   },
 ];
 
@@ -115,8 +129,11 @@ const items = [
     price: 4951,
   },
 ];
+
 </script>
 
 <style scoped>
-
+.container{
+  background-color: #e4d7e0;
+}
 </style>
