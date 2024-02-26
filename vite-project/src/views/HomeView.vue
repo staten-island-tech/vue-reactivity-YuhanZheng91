@@ -1,47 +1,15 @@
 <template>
-  <div class="container" >
-  <h2></h2>
+  <div>
+  <ItemCard
+    v-for="item in items"
+     :key="item.name"
+     :Item="item"
+  />
   </div>
 </template>
 
 <script setup>
-const adver = [
-  {
-    name: "Sponsored an incarnation with the worst stats possible?",
-    desc: "Fear not! Purchase these and you will gain a random attribute to give to your incarnation.",
-    image: "",
-    imageDesc: "a smiling fluff ball (called a Dokkaebi), giving you a thumbs up.",
-    price: 100000,
-  },
-  {
-    name: "Starter Pack For Incarnations!",
-    desc: "Boosts your incarnation's stats to level 10. This is only effective if the incarnation's stats were below level 10.",
-    image: "",
-    imageDesc: "a package-looking thing with a smiling Dokkaebi",
-    price: 157500,
-  },
-  {
-    name: "Cancel-Contract",
-    desc: "Did your incarnation completely disappoint you? Do you completely regret choosing your incarnation? Fret not, for I have a solution. With Cancel-Contract, you may terminate the contract and leave your incarnation.",
-    image: "",
-    imageDesc: "a package with a boo-ing fluff ball with a thumbs down.",
-    price: 91580,
-  },
-  {
-    name: "All in One Package!",
-    desc: "Potions for strength, health, fatigue, skills, armors, weapons, and more for a very cheap and reasonable price. Buy now.",
-    image: "",
-    imageDesc: "A big package with a sticker of a fluff ball with a small golden crown.",
-    price: 1000000,
-  },
-  {
-    name: "Temporary Sponsor Contract",
-    desc: "Wanting to sponor an incarnation but scared of it failing your expectations? Fret not for temporary contracts exist! Try out your incarnation and see if you're satisfied for a great price.",
-    image: "",
-    imageDesc: "an old scroll",
-    price: 50000,
-  },
-];
+import ItemCard from '@/components/ItemCard.vue'; 
 
 const items = [
   {

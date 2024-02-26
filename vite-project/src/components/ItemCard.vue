@@ -1,4 +1,3 @@
-<!-- name files two words, otherwise there may be issues -->
 <template>
     <div>
         <h2> {{ Item.name }} </h2>
