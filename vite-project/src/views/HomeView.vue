@@ -60,14 +60,14 @@ const items = [
     image: "",
     imageDesc: "A package looking thing with an icon showing a thumbs-up",
     price: 1500,
-  }, 
+  },
   {
     name: "Random Armor Box",
     desc: "Want SSSS-grade armor? Here it is! Buy one and get a random armor with a great chance of getting a legendary armor.",
     image: "",
     imageDesc: "A package looking thing with an icon of a helmet.",
     price: 1500,
-  }, 
+  },
   {
     name: "Recovery Package",
     desc: "Recover from injury and fatigue!",
@@ -93,7 +93,7 @@ const items = [
     name: "Diary of Yuri di Aristel",
     desc: "A notebook belonging to a particular author, who wrote and waited more than 50 years for just that one reader. Where has he gone?",
     image: "",
-    imageDesc: "A hardcover diary; it has a black leather cover and white pages. Each page is filled with a foreign language.",
+    imageDesc: "A hardcover diary; it has a black leather cover and white pages. Each page is filled with a foreign language and a brilliant cursive.",
     price: 4951,
   },
 ];

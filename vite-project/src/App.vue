@@ -8,5 +8,9 @@
 </template>
 
 <style scoped>
-
+body,
+html,
+*{
+  background-color: #d1d1d1;
+}
 </style>

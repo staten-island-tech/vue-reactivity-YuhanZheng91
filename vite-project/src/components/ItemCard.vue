@@ -21,9 +21,14 @@ function increment(){
 </script>
 
 <style scoped> 
-    img{
-        width: 250px;
-        height: 300px;
-        object-fit: cover;
-    }
+*{
+    background-color: white;
+    color: #54585c;
+}
+
+img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
 </style>
