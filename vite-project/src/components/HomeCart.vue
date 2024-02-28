@@ -4,17 +4,13 @@
     </div>
 </template>
 
-<script setup>
+<script>
 const shop = [];
 function something(){
-    
+    items
 }
 </script>
 
 <style scoped>
-*,
-body,
-html{
-    background-color: #928282;
-}
+
 </style>

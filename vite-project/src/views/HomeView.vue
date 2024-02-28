@@ -10,7 +10,6 @@
 
 <script setup>
 import ItemCard from '@/components/ItemCard.vue'; 
-
 const items = [
   {
     name: "One's Lost Gadget",

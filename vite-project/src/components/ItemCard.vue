@@ -3,7 +3,7 @@
         <h2> {{ Item.name }} </h2>
         <img :src="Item.image" alt="">
         <h3> {{ clicked }}</h3>
-        <button @click="increment"> Click Me </button>
+        <button class="clickMeB" @click="increment"> Click Me </button>
     </div>
 </template>
 
@@ -21,11 +21,12 @@ function increment(){
 </script>
 
 <style scoped> 
-*{
+*,
+body,
+html{
     background-color: white;
     color: #54585c;
 }
-
 img{
     width: 250px;
     height: 300px;
