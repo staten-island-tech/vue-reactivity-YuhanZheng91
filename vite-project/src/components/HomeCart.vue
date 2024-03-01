@@ -7,7 +7,7 @@
 <script>
 const shop = [];
 function something(){
-    items
+    item
 }
 </script>
 
