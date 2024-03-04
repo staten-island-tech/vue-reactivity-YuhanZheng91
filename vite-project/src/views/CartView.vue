@@ -1,26 +1,15 @@
-<!-- 
 <template>
-    <div>
-        <h3>{{ clicked }}</h3>
-    </div>
+  <div>
+
+  </div>
 </template>
-  
-<script setup>
-import { ref } from "vue";
-const props = defineProps({
-  Destination: Object,
-});
-  
-//clicker logic
-let clicked = ref(0);
-function increment() {
-  clicked.value++;
-}
+
+<script>
+  export default {
+    
+  }
 </script>
 
-<style scoped>
-body{
-    margin: auto;
-}
-</style> 
--->
+<style lang="scss" scoped>
+
+</style>
