@@ -1,23 +1,15 @@
-<script setup>
-</script>
-
 <template>
-  <header>
-    <h1> Dokkaebi Bag </h1>
-    <!-- <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/cart">Cart</RouterLink>
-      </nav>
-    </div> -->
-  </header>
-  <!-- <RouterView /> -->
+  <div id="app">
+    <ShoppingCart />
+  </div>
 </template>
 
-<style scoped>
-body,
-html,
-*{
-  background-color: #d1d1d1;
-}
-</style>
+<script>
+import ShoppingCart from './components/ShoppingCart.vue';
+
+export default {
+  components: {
+    ShoppingCart,
+  },
+};
+</script>

@@ -1,6 +1,8 @@
 *,
 body,
 html{
-  margin: 0%;
+  margin: auto;
   padding: 0%;
+  text-align: center;
+  align-items: first baseline;
 }
